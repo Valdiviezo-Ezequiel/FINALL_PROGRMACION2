@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: rgb(24, 24, 24);
+}
+
+header{
+    text-align: center;
+}
+
+#logo{
+    margin-top: 0.5rem;
+    height: 40px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    margin-right: 1rem;
+    border-bottom: 2px solid rgba(39, 39, 39, 0.538);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    border-bottom: thin solid rgba(39, 39, 39, 0.538);
+}
+
+
+h2, h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+
+.camisetas{
+    background-color: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
+}
+
+.moldeRemeras{
+    border-radius: 0.3rem;
+    border: 2px solid rgb(88, 87, 87);
+}
+
+.tarjeta{
+    border: 3px solid rgb(34, 34, 34);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+
+.centrar{
+    text-align: center;
+}
+
+.negro{
+    background-color: black;
+    padding: 2rem;
+}
+
+.blanco{
+    color: white;
+}
+
+footer{  
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer span{
+    font-size: 1.2rem;
+}
+
+.tituloAdmin{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem;
+}
+
+.procesoDatos{
+    background-color: #333; 
+    max-width: 1200px;
+    color: white;
+    margin: auto;
+    padding:1.5rem;
+}
+
+.footerAdmin{
+    background-color: black;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+    #logo{
+        margin-top: 0.5rem;
+        height: 30px;
+    }
+
+    nav ul li a{
+        border-bottom: none;
+    }
+
+    nav a .lineaBaja{
+        color: #333;
+        text-decoration: none;
+        }
+        .lineaBaja:after {
+        content: "";
+        display: block;
+        margin: auto;
+        height: 2px;
+        width: 0px;
+        transition: all .8s;
+        }
+        a:hover:after {
+        width: 100%;
+        background: rgb(51, 51, 51);}
+
+    .camisetas{
+            background-color: rgb(16, 16, 16);
+            color: white;
+        }
+
+    .moldeRemeras{
+            border-radius: 0.3rem;
+            border: 2px solid black;
+        }
+
+    .tarjeta{
+            border: 2px solid rgb(0, 0, 0);
+            background-color: rgb(16, 15, 15);
+            color: white;
+        }
+
+
+
+    .contacto{
+        border: groove;
+        border-radius: 1rem;
+        border-color: rgb(0, 0, 0);
+        padding: 2rem;
+        background-color: rgb(226, 228, 228);
+    }
+
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+    #logo{
+        margin-top: 0.5rem;
+        height: 30px;
+    } 
+
+ 
+    
+}
